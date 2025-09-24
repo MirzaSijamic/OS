@@ -1,0 +1,23 @@
+64fa47cb7000-64fa47cb8000 r--p 00000000 08:02 578873                     /home/Mirza/Desktop/Project2/mjau
+64fa47cb8000-64fa47cb9000 r-xp 00001000 08:02 578873                     /home/Mirza/Desktop/Project2/mjau
+64fa47cb9000-64fa47cba000 r--p 00002000 08:02 578873                     /home/Mirza/Desktop/Project2/mjau
+64fa47cba000-64fa47cbb000 r--p 00002000 08:02 578873                     /home/Mirza/Desktop/Project2/mjau
+64fa47cbb000-64fa47cbc000 rw-p 00003000 08:02 578873                     /home/Mirza/Desktop/Project2/mjau
+64fa4ccbd000-64fa4ccde000 rw-p 00000000 00:00 0                          [heap]
+7c961ca00000-7c961ca28000 r--p 00000000 08:02 1356514                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7c961ca28000-7c961cbb0000 r-xp 00028000 08:02 1356514                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7c961cbb0000-7c961cbff000 r--p 001b0000 08:02 1356514                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7c961cbff000-7c961cc03000 r--p 001fe000 08:02 1356514                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7c961cc03000-7c961cc05000 rw-p 00202000 08:02 1356514                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7c961cc05000-7c961cc12000 rw-p 00000000 00:00 0 
+7c961ccdd000-7c961cce0000 rw-p 00000000 00:00 0 
+7c961ccef000-7c961ccf1000 rw-p 00000000 00:00 0 
+7c961ccf1000-7c961ccf5000 r--p 00000000 00:00 0                          [vvar]
+7c961ccf5000-7c961ccf7000 r-xp 00000000 00:00 0                          [vdso]
+7c961ccf7000-7c961ccf8000 r--p 00000000 08:02 1356511                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7c961ccf8000-7c961cd23000 r-xp 00001000 08:02 1356511                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7c961cd23000-7c961cd2d000 r--p 0002c000 08:02 1356511                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7c961cd2d000-7c961cd2f000 r--p 00036000 08:02 1356511                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7c961cd2f000-7c961cd31000 rw-p 00038000 08:02 1356511                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffdaf42f000-7ffdaf450000 rw-p 00000000 00:00 0                          [stack]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]

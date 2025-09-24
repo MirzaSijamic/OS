@@ -1,0 +1,42 @@
+Task 1.5:
+Question 1. What is the purpose of the fork() system call?
+Purpose of the fork() system call is to create a new process by duplicating the
+calling process in which the new process becomes the child of the calling process
+and is an exact copy of the calling process except for the unique process ID (PID).
+
+Question 2. When a process makes a system call and runs kernel code:
+A. How does the process obtain the address of the kernel instruction to jump to?
+B. Where is the userspace context of the process (program counter and other
+registers) stored during the transition from user mode to kernel mode?
+
+Answers:
+A. During boot, the OS (in kernel mode) initializes a trap table, which maps
+system call numbers to their corresponding handler addresses in the kernel.When
+a process executes a system call, the trap instruction will consults the trap table
+and jumps to the kernel handler address specified in the table. (The process does
+not specify the address directly for security concerns)
+
+B.The hardware automatically saves the process’s userspace context (program
+counter, registers, flags) onto a per-process kernel stack during the transition to
+kernel mode.
+
+Question 3. Explain the following code snippet and write down the list of process
+state transitions that occur during the following program. You may assume that
+this is the only process that the CPU is executing.
+int i = 1;
+while (i < 100) { i++; }
+printf("%d ", i);
+while (i > 0) { i--; }
+printf("%d ", i);
+
+The program at the start initialzes i to 1. i is incremented to 100 in the while loop
+and is printed. i is then decremented from 100 to 0 and then is printed.
+
+Process state transitions:
+1.Program loaded => New > Ready
+2.Scheduler assigns CPU => Ready > Running
+3.First loop ( while (i < 100) { i++; } ) => Running
+4.First print => Running > Waiting > Ready > Running
+5.Second loop ( while (i > 0) { i--; }) => Running
+6.Second print => Running > Waiting > Ready > Running
+7.Exit program => Running > Terminated

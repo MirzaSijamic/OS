@@ -1,0 +1,23 @@
+5ecc77155000-5ecc77156000 r--p 00000000 08:02 568347                     /home/Mirza/Desktop/Project2/project2
+5ecc77156000-5ecc77157000 r-xp 00001000 08:02 568347                     /home/Mirza/Desktop/Project2/project2
+5ecc77157000-5ecc77158000 r--p 00002000 08:02 568347                     /home/Mirza/Desktop/Project2/project2
+5ecc77158000-5ecc77159000 r--p 00002000 08:02 568347                     /home/Mirza/Desktop/Project2/project2
+5ecc77159000-5ecc7715a000 rw-p 00003000 08:02 568347                     /home/Mirza/Desktop/Project2/project2
+5ecc7cb33000-5ecc7cb54000 rw-p 00000000 00:00 0                          [heap]
+770c04400000-770c04428000 r--p 00000000 08:02 1356514                    /usr/lib/x86_64-linux-gnu/libc.so.6 (deleted)
+770c04428000-770c045b0000 r-xp 00028000 08:02 1356514                    /usr/lib/x86_64-linux-gnu/libc.so.6 (deleted)
+770c045b0000-770c045ff000 r--p 001b0000 08:02 1356514                    /usr/lib/x86_64-linux-gnu/libc.so.6 (deleted)
+770c045ff000-770c04603000 r--p 001fe000 08:02 1356514                    /usr/lib/x86_64-linux-gnu/libc.so.6 (deleted)
+770c04603000-770c04605000 rw-p 00202000 08:02 1356514                    /usr/lib/x86_64-linux-gnu/libc.so.6 (deleted)
+770c04605000-770c04612000 rw-p 00000000 00:00 0 
+770c04751000-770c04754000 rw-p 00000000 00:00 0 
+770c04762000-770c04765000 rw-p 00000000 00:00 0 
+770c04765000-770c04769000 r--p 00000000 00:00 0                          [vvar]
+770c04769000-770c0476b000 r-xp 00000000 00:00 0                          [vdso]
+770c0476b000-770c0476c000 r--p 00000000 08:02 1356511                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 (deleted)
+770c0476c000-770c04797000 r-xp 00001000 08:02 1356511                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 (deleted)
+770c04797000-770c047a1000 r--p 0002c000 08:02 1356511                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 (deleted)
+770c047a1000-770c047a3000 r--p 00036000 08:02 1356511                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 (deleted)
+770c047a3000-770c047a5000 rw-p 00038000 08:02 1356511                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 (deleted)
+7ffe6b29a000-7ffe6b2bb000 rw-p 00000000 00:00 0                          [stack]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
